@@ -35,8 +35,8 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="text"
-        app:layout_constraintTop_toBottomOf="@+id/CompanyRegisterTitle"
-        tools:layout_editor_absoluteX="133dp" />
+        app:layout_constraintStart_toEndOf="@+id/CompanyName"
+        app:layout_constraintTop_toBottomOf="@+id/CompanyRegisterTitle" />
 
     <Button
         android:id="@+id/btn_save"
