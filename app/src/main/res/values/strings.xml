@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">JobCalendar</string>
+    <string name="app_name">CompaNote</string>
+    <string name="btn_CompList">企業リスト</string>
+    <string name="btn_CompanyRegister">企業登録</string>
+    <string name="CompanyRegisterTitle">企業登録画面</string>
+    <string name="ComanyListTitle">企業リスト画面</string>
+    <string name="CompanyName">企業名</string>
+    <string name="btn_save">保存</string>
 </resources>
