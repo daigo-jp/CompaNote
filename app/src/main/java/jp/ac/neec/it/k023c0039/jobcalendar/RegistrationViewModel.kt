@@ -22,7 +22,6 @@ class RegistrationViewModel(private val dbHelper: DatabaseHelper) : ViewModel() 
     private val _registrationStatus = MutableLiveData<String>()
     val registrationStatus: LiveData<String> = _registrationStatus
 
-    // Geminiモデルを初期化 (APIキーは安全な場所に隠すべきだが、ここでは簡略化)
     private val generativeModel = GenerativeModel(
         modelName = "gemini-1.5-flash",
         apiKey = BuildConfig.GEMINI_API_KEY// ★★★ あなたのAPIキー

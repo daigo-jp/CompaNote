@@ -24,7 +24,6 @@
 -   言語: Kotlin
 -   DB: **SQLiteOpenHelper** (DBヘルパーによる手動のSQLite管理)
 -   API: **Gemini API**
--   非同期処理: **AsyncTask**
 -   UI: Android SDK (Activity / ListView)
 
 ---
